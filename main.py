@@ -19,6 +19,7 @@ When a user asks a question or makes a request, make a function call plan. You c
 - Write or overwrite files
 
 All paths you provide should be relative to the working directory. You do not need to specify the working directory in your function calls as it is automatically injected for security reasons.
+Read all files before making changes
 """
 schema_get_files_info = types.FunctionDeclaration(
     name="get_files_info",
